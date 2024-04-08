@@ -57,14 +57,6 @@ export default function Graphic() {
             <section className='flex flex-row mt-[180px]  w-full items-center justify-center'>
                 <div className=' flex w-full h-[700px]'>
                     <Pie data={chartData} options={{
-                        title: {
-                            display: true,
-                            text: 'Ventas totales'
-                        },
-                        legend: {
-                            display: true,
-                            position: 'bottom'
-                        },
                         plugins: {
                             legend: {
                                 labels: {
