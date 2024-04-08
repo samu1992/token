@@ -2,6 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
+*{
+  box-sizing: border-box;
+}
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
@@ -126,9 +129,27 @@ opacity: 0.77;
 background-color: #fff;
 filter: blur(150px);
 }
+.elipse2{
+  transform: scale(0.9);
+  }
 
 #texture{
   background-image: url('../assets/images/textureHow.svg');
   background-position: center;
   background-size: cover;
+}
+.scroll{
+  height: 620px;
+  overflow-y: scroll;
+}
+
+.scroll::-webkit-scrollbar {
+  width: 0;
+  height: 0; 
+}
+.solsni{
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.60) 0%, rgba(153, 153, 153, 0.10) 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
 }

@@ -8,16 +8,16 @@ import { Darker_Grotesque } from 'next/font/google';
 const darker = Darker_Grotesque({
     subsets: ['latin'],
     display: 'swap',
-    weight: ['800', '400']
+    weight: ['800', '400', '600']
 })
 
 
 
 export default function SectionHow() {
     return (
-        <main className={`${darker.className} h-[1424px] text-[#090E14] relative border2 flex flex-col justify-between items-center bg-[#030504]`}>
+        <main className={`${darker.className} h-[1424px] overflow-y-hidden text-[#090E14] relative  flex flex-col justify-between items-center bg-[#030504]`}>
             <div className=" z-10 absolute top-[-160px]  w-full overflow-hidden">
-                <h2 className={`tracking-[17px] font-extrabold text-[#ffffff25] text-center text-[350px] w-full`}>Solsniffer</h2>
+                <h2 className={`tracking-[17px] solsni font-semibold text-[#ffffff25] text-center text-[380px] w-full`}>Solsniffer</h2>
             </div>
             <div className='w-full h-[1200px] absolute top-56 z-20 rounded-[50%] elipse' />
             <div id="texture" className="absolute top-0 right-0 z-30 w-full h-[1424px]"></div>
@@ -29,7 +29,9 @@ export default function SectionHow() {
                     <FaArrowRightLong color='#1AF7A0' size='1.5em' />
                 </button>
             </section>
-            <Cards />
+            <section className="w-full h-[150vh] mt-5">
+                <Cards />
+            </section>
         </main>
     )
 }
