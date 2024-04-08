@@ -3,6 +3,7 @@ import Flow from "@/components/Flow/Flow";
 import Metrics from "@/components/Metrics/Metrics";
 import SectionRevenue from "@/components/Section05_RevenueModel/Section05_RevenueModel";
 import SectionHow from "@/components/SectionHow/SectionHow";
+import Utilities from "@/components/Utilities/Utilities";
 import Vectores from "@/components/Vectores/Vectores";
 
 export default function Home() {
@@ -14,6 +15,7 @@ export default function Home() {
       <Flow/>
       <SectionHow/>
       <SectionRevenue/>
+      <Utilities/>
     </main>
   );
 }

@@ -86,5 +86,12 @@ export const revenue = [
   {icon: iconRevenue3, text: 'API’S SUBSCRIPTIONS'},
   {icon: iconRevenue4, text: 'PROJECT VERIFICATION'},
   {icon: iconRevenue5, text: 'DISPLAY ADVERTISING'},
-  
+]
+
+export const utilities = [
+  {number: '01.', text: 'Early access to exclusive features for $SNIF holders'},
+  {number: '02.', text: 'Community incentives in $SNIF'},
+  {number: '03.', text: 'Project verification and advertising is paid in $SNIF'},
+  {number: '04.', text: 'Discounts on services (i.e., swap fees, API fees, ads rate, etc.)'},
+  {number: '05.', text: 'Ecosystem utilities with future partners'},
 ]
