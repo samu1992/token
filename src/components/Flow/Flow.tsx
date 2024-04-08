@@ -7,6 +7,7 @@ import { Darker_Grotesque } from 'next/font/google'
 const darker = Darker_Grotesque({
     subsets: ['latin'],
     display: 'swap',
+    weight: ['700', '300', '400', '500', '600']
   })
 
 export default function Flow() {
@@ -15,7 +16,7 @@ export default function Flow() {
     return(
         <section className={`${darker.className} flex  py-14 gap-[65px] flex-col justify-center items-center px-[100px] bg-[#030504] leading-[132%]`}>
             <div className="flex flex-row  justify-end  gap-2 items-center w-full pr-[12%]">
-                <h3 className="text-[#1AF7A0] text-[32px] tracking-[1.6px] mb-10">OPORTUNITY</h3>
+                <h3 className="text-[#1AF7A0] text-[32px] font-bold tracking-[1.6px] mb-10">OPORTUNITY</h3>
                 <Image  src={vector} alt="imgConect"/>
             </div>
             <div className="flex flex-row  justify-end gap-2 items-end w-full">

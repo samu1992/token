@@ -15,7 +15,7 @@ const darker = Darker_Grotesque({
 
 export default function SectionHow() {
     return (
-        <main className={`${darker.className} text-[#090E14] relative flex flex-col justify-between items-center bg-[#030504]`}>
+        <main className={`${darker.className} h-[1424px] text-[#090E14] relative border2 flex flex-col justify-between items-center bg-[#030504]`}>
             <div className=" z-10 absolute top-[-160px]  w-full overflow-hidden">
                 <h2 className={`tracking-[17px] font-extrabold text-[#ffffff25] text-center text-[350px] w-full`}>Solsniffer</h2>
             </div>

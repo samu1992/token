@@ -18,12 +18,12 @@ export default function Cards() {
 
     return (
         <>
-            <section className="relative z-[70] overflow-y-hidden max-h-[700px] flex flex-col items-center justify-center px-[100px] gap-[120px] border w-full">
+            <section className="relative z-[70] overflow-y-scroll h-vh mt-14 flex flex-col items-center justify-center px-[100px] gap-[120px] border w-full">
                 {
                     card.map(({ img, logo, name, span, state, subtitle, list }, index) => {
                         return (
-                            <section key={index} className="flex flex-row items-center justify-center border2">
-                                <div>
+                            <section key={index} className="flex w-full flex-row items-center justify-center border2">
+                                <div className="">
                                     <Image alt="imgCard" src={img} />
                                 </div>
                                 <div className={`${darker.className} px-[60px] pt-[30px] pb-[60px] flex flex-col items-start justify-start gap-6 rounded-[20px] border-[1px] border-solid border-[#090E14] bg-[#FFF] text-[#090E14]`}>
@@ -32,13 +32,13 @@ export default function Cards() {
                                     </article>
                                     <p className="text-[32px] uppercase leading-none">{name}<br /><span className="text-[32px] font-bold uppercase">{span}</span></p>
                                     <div className="flex justify-center items-center py-[8px] px-3 rounded-md bg-[#262A31] text-[#1AF7A0]"><p className="uppercase text-[18px]">{state}</p></div>
-                                    <p className="text-[24px] font-medium uppercase leading-[27.12px] text-balance max-w-[300px] ">{subtitle}</p>
+                                    <p className="text-[24px] font-medium uppercase leading-[27.12px] text-balance max-w-[400px] ">{subtitle}</p>
                                     {
                                         list.map((item, indexText) => (
                                             <ul key={indexText} className="">
-                                                <div className="flex flex-row items-center justify-center gap-4">
+                                                <div className="flex flex-row items-center justify-center gap-2">
                                                     <Image alt="checkCard" src={check} />
-                                                    <li>{item.text}</li>
+                                                    <li className="#090E14 text-[20px] font-medium">{item.text}</li>
                                                 </div>
 
                                             </ul>
