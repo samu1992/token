@@ -4,6 +4,12 @@ import imgCard3 from "../images/ImgCard-3.svg";
 import LogoCard1 from "../images/LogoCard-1.svg";
 import LogoCard2 from "../images/LogoCard-2.svg";
 import LogoCard3 from "../images/LogoCard-3.svg";
+import iconRevenue1 from "../images/revenueModel-1.svg"
+import iconRevenue2 from "../images/revenueModel-2.svg"
+import iconRevenue3 from "../images/revenueModel-3.svg"
+import iconRevenue4 from "../images/revenueModel-4.svg"
+import iconRevenue5 from "../images/revenueModel-5.svg"
+
 
 export const card = [
   {
@@ -72,4 +78,13 @@ export const metrics = [
     {
         number: '+378K', text: 'issues found'
     }
+]
+
+export const revenue = [
+  {icon: iconRevenue1, text: 'SWAP FEES'},
+  {icon: iconRevenue2, text: 'NFT BADGES'},
+  {icon: iconRevenue3, text: 'API’S SUBSCRIPTIONS'},
+  {icon: iconRevenue4, text: 'PROJECT VERIFICATION'},
+  {icon: iconRevenue5, text: 'DISPLAY ADVERTISING'},
+  
 ]
