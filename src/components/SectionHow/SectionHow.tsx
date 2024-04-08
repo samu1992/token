@@ -2,7 +2,7 @@
 import { FaArrowRightLong } from "react-icons/fa6";
 import Cards from '../Cards/Cards';
 import { Darker_Grotesque } from 'next/font/google';
-
+import { useState, useEffect } from "react";
 
 
 const darker = Darker_Grotesque({
@@ -14,6 +14,17 @@ const darker = Darker_Grotesque({
 
 
 export default function SectionHow() {
+    const [isSticky, setIsSticky] = useState(false);
+
+    useEffect(() => {
+        const handleScroll = () => {
+          setIsSticky(window.scrollY > 0);
+        };
+        window.addEventListener("scroll", handleScroll);
+        return () => {
+          window.removeEventListener("scroll", handleScroll);
+        };
+      }, []);
     return (
         <main className={`${darker.className} h-[1424px] overflow-y-hidden text-[#090E14] relative  flex flex-col justify-between items-center bg-[#030504]`}>
             <div className=" z-10 absolute top-[-160px]  w-full overflow-hidden">

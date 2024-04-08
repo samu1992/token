@@ -2,6 +2,7 @@ import Image from "next/image"
 import vector from '../../assets/images/flowConect.svg'
 import vector2 from '../../assets/images/flowConect2.svg'
 import { Darker_Grotesque } from 'next/font/google'
+import { useState, useEffect } from "react"
 
 
 const darker = Darker_Grotesque({
@@ -11,7 +12,6 @@ const darker = Darker_Grotesque({
   })
 
 export default function Flow() {
-
 
     return(
         <section className={`${darker.className} flex  py-14 gap-[65px] flex-col justify-center items-center px-[100px] bg-[#030504] leading-[132%]`}>

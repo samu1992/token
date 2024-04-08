@@ -1,7 +1,7 @@
 'use client'
-import { Darker_Grotesque } from "next/font/google"
 import { utilities } from "@/assets/constants/constants"
 import { FaArrowRightLong } from "react-icons/fa6"
+import { Darker_Grotesque } from "next/font/google"
 
 
 const darker = Darker_Grotesque({
