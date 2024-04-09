@@ -34,14 +34,16 @@ export default function SectionHow() {
             </div>
             {/* <div className='w-full h-[1200px] absolute top-56 z-20 rounded-[50%] elipse' />
             <div id="texture" className="absolute top-0 right-0 z-30 w-full h-[100%]"></div> */}
-            <section className={`w-full  px-[60px] z-50 flex flex-col text-[#F6FAFF] items-start justify-start ${isSticky ? 'sm:sticky top-[50px]' : ''}`}>
-                <h2 className=' text-[60px] text-balance leading-[54px] font-semibold uppercase'>How we stand out?</h2>
-                <p className=' text-[24px] uppercase font-semibold'>all-in-one platform</p>
-                <p className=' uppercase text-[20px] mb-5'>Understanding on-chain data</p>
-                <button className='flex bg-[#262A31] text-[#fff] tracking-[1px] uppercase rounded-[10px] flex-crow justify-center items-center gap-3 py-3 px-5 border-[1px] border-[#ffffff32] border-solid'>PITCH DECK
-                    <FaArrowRightLong color='#1AF7A0' size='1.5em' />
-                </button>
-                <section className='flex mt-6 items-center justify-center'>
+            <section className={`w-full px-[60px] z-50 flex flex-col text-[#F6FAFF] items-start justify-start ${isSticky ? 'sm:sticky top-[50px]' : ''}`}>
+                <div className="ml-[55px]">
+                    <h2 className=' text-[60px] text-balance leading-[54px] font-semibold uppercase'>How we stand out?</h2>
+                    <p className=' text-[24px] uppercase font-semibold'>all-in-one platform</p>
+                    <p className=' uppercase text-[20px] mb-5'>Understanding on-chain data</p>
+                    <button className='flex bg-[#262A31] text-[#fff] tracking-[1px] uppercase rounded-[10px] flex-crow justify-center items-center gap-3 py-3 px-5 border-[1px] border-[#ffffff32] border-solid'>PITCH DECK
+                        <FaArrowRightLong color='#1AF7A0' size='1.5em' />
+                    </button>
+                </div>
+                <section className='flex  mt-6 items-center justify-center'>
                     <Lottie animationData={animationData} width={200} height={200} />
                 </section>
             </section>
