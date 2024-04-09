@@ -64,7 +64,7 @@ export default function Graphic() {
                                         size: 0, // Tamaño de la fuente
                                         weight: 'normal'
                                     },
-                                    color: '#090E14',
+                                    color: '##F6FAFF',
                                     padding: 1,
 
                                 }
@@ -72,7 +72,7 @@ export default function Graphic() {
                         }
                     }} />
                 </div>
-                <div className='flex flex-col  w-full 2xl:w-[50%] items-start justify-start'>
+                <div className='flex flex-col  w-full px-3 2xl:w-[50%] items-start justify-start'>
                     {chartInfo.map((info, index) => (
                         <p key={index} className='text-[20px] md:text-[24px] font-medium leading-[100%] tracking-[0.96px] text-[#090E14] '>
                             <span className='text-[30px] sm:text-[36] md:text-[50px] lg:text-[64px] font-extrabold leading-[100%] tracking-[-2.5px] ' style={{ color: info.color }}>{info.value}%</span><br />

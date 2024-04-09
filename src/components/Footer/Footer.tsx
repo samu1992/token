@@ -23,7 +23,7 @@ export default function Footer() {
 
 
     return(
-        <footer className="px-[60PX] gap-12  bg-[#000000] relative bottom-0 py-[30px] flex flex-col justify-center items-center w-full">
+        <footer className="md:px-[60PX] px-6 gap-12  bg-[#000000] relative bottom-0 py-[30px] flex flex-col justify-center items-center w-full">
             <section className="w-full">
                 <ul className={`${darker.className} gap-4 w-full flex flex-col justify-start items-start`}>
                     {
