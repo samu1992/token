@@ -26,7 +26,7 @@ export default function Flow() {
                 <p className="text-[#F6F4EE] text-[24px] tracking-[0.24px] uppercase text-balance w-[500px] indent-[50px]">Now, theres a place where you can discover tokens, sense market sentiments, and gain wallet insights.</p>
                 <Image  src={vector2} alt="imgConect"/>
             </div>
-            <button className="py-[10px] bg-[#262a3163] px-[16px] flex items-center justify-center rounded-[8px] border-solid border-[1px] border-[#454b56c4]">OUR WHITEPAPER</button>
+            <button className="py-[10px] bg-[#262a3163] px-[16px] flex items-center justify-center rounded-[8px] border-solid border-[1px] border-[#454b56c4] hover:bg-[#000000a3] cursor-pointer">OUR WHITEPAPER</button>
         </section>
     )
 }

@@ -34,7 +34,7 @@ export default function Utilities() {
                 }
             </section>
             <div>
-                <button className='flex bg-[#262A31] text-[#fff] tracking-[1px] uppercase rounded-[10px] flex-crow justify-center items-center gap-3 py-3 px-5 border-[1px] border-[#ffffff32] border-solid'>whitepaper
+                <button className='flex hover:bg-[#262A31] text-[#fff] tracking-[1px] uppercase rounded-[10px] flex-crow justify-center items-center gap-3 py-3 px-5 border-[1px] border-[#ffffff32] border-solid bg-[#000000]'>whitepaper
                     <FaArrowRightLong color='#1AF7A0' size='1.5em' />
                 </button>
             </div>

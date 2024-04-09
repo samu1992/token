@@ -39,7 +39,7 @@ export default function SectionHow() {
                     <h2 className=' text-[60px] text-balance leading-[54px] font-semibold uppercase'>How we stand out?</h2>
                     <p className=' text-[24px] uppercase font-semibold'>all-in-one platform</p>
                     <p className=' uppercase text-[20px] mb-5'>Understanding on-chain data</p>
-                    <button className='flex bg-[#262A31] text-[#fff] tracking-[1px] uppercase rounded-[10px] flex-crow justify-center items-center gap-3 py-3 px-5 border-[1px] border-[#ffffff32] border-solid'>PITCH DECK
+                    <button className='flex hover:bg-[#262A31] text-[#fff] tracking-[1px] uppercase rounded-[10px] flex-crow justify-center items-center gap-3 py-3 px-5 border-[1px] border-[#ffffff32] border-solid bg-[#000000a3]'>PITCH DECK
                         <FaArrowRightLong color='#1AF7A0' size='1.5em' />
                     </button>
                 </div>
