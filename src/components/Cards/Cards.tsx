@@ -34,15 +34,15 @@ export default function Cards() {
 
     return (
         <section className="z-[70]  relative flex flex-col items-center justify-center px-[100px] w-full">
-            <article className="scroll  gap-9 top-0 flex flex-col items-center justify-between">
+            <article className=" gap-9 top-0 flex flex-col items-center justify-between">
                 {
                     card.map(({ img, logo, name, span, state, subtitle, list }, index) => {
                         return (
                             <section key={index} className="flex relative  gap-4 w-full z-[70] flex-row items-center justify-center">
-                                <div className="">
+                                {/* <div className="">
                                     <Image alt="imgCard" src={img} />
-                                </div>
-                                <article  className={`${darker.className} relative overflow-hidden z-[60] px-[60px] pt-[30px] pb-[60px] flex flex-col items-start justify-start gap-6 rounded-[20px] border-[1px] border-solid border-[#090E14] bg-[#FFF] text-[#090E14]`}>
+                                </div> */}
+                                <article  className={`${darker.className} relative  z-[60] px-[60px] pt-[30px] pb-[60px] flex flex-col items-start justify-start gap-6 rounded-[20px] border-[1px] border-solid border-[#090E14] bg-[#FFF] text-[#090E14]`}>
                                     <div>
                                         <Image alt="logoCard" src={logo} />
                                     </div>

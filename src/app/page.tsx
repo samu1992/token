@@ -1,5 +1,6 @@
 import Banner from "@/components/Banner/Banner";
 import Flow from "@/components/Flow/Flow";
+import Footer from "@/components/Footer/Footer";
 import Graphic from "@/components/Graphic/Graphic";
 import Metrics from "@/components/Metrics/Metrics";
 import SectionRevenue from "@/components/Section05_RevenueModel/Section05_RevenueModel";
@@ -18,6 +19,7 @@ export default function Home() {
       <SectionRevenue/>
       <Utilities/>
       <Graphic/>
+      <Footer/>
     </main>
   );
 }

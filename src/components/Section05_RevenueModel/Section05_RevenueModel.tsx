@@ -3,8 +3,8 @@
 import { Darker_Grotesque } from 'next/font/google';
 import { revenue } from '@/assets/constants/constants';
 import Image from 'next/image';
-import Lottie from 'lottie-react';
 import animationData from '../../assets/images/Flow 2 (1).json';
+import Lottie from 'lottie-react';
 
 
 

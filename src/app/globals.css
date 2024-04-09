@@ -148,8 +148,12 @@ filter: blur(150px);
   height: 0; 
 }
 .solsni{
-  background: linear-gradient(180deg, rgba(255, 255, 255, 0.18) 0%, rgba(153, 153, 153, 0.03) 100%);
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.10) 0%, rgba(153, 153, 153, 0.03) 100%);
 background-clip: text;
 -webkit-background-clip: text;
 -webkit-text-fill-color: transparent;
+}
+.footer{
+  -webkit-text-stroke-width: 2;
+-webkit-text-stroke-color: #494949;
 }
