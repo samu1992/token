@@ -10,8 +10,8 @@ export default function Banner() {
                 <h1 className="text-balance indent-[50px]">SECURITY ON SOLANA HAS<br /> NEVER BEEN <span className="span_1">SAFER</span> BEFORE</h1>
                 <button className="py-[10px] px-[16px] rounded-lg border-[1px] border-solid border-[#ffffff57] bg-[#ffffff14] tracking-wider hover:bg-[#000000a3]">BUY IT NOW</button>
             </div>
-            <div className=" w-full flex flex-row items-start justify-between">
-                <section className=" w-full flex flex-col gap-6">
+            <div className="w-full flex flex-row items-start justify-between">
+                <section className=" w-full flex flex-col gap-6 items-center justify-center sm:items-start sm:justify-start">
                     <p>
                         FOLLOW US
                     </p>

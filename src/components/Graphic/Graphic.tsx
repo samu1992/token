@@ -50,12 +50,12 @@ export default function Graphic() {
     }));
 
     return (
-        <section className={`${darker.className} relative w-full flex gap-12 flex-col items-center justify-between px-[120px] pb-[80px] bg-[#F6FAFF]`}>
-            <div className=' absolute top-[-30px]  px-[120px] w-full flex justify-start items-start'>
-                <h5 className='text-[#b8c5d03a] text-[200px] font-extrabold tracking-[6px] leading-[115%] '>TOKENOMICS</h5>
+        <section className={`${darker.className}  relative w-full flex md:gap-12 flex-col items-center justify-between px-3 xl:px-[120px] pb-[80px] bg-[#F6FAFF]`}>
+            <div className=' absolute lg:top-[-30px] 2xl:top-[-60px]  2xl:px-[60px] w-full flex justify-center items-center 2xl:justify-center 2xl:items-center'>
+                <h5 className='text-[#b8c5d03a] text-center text-[48px] sm:text-[80px] md:text-[120px] xl:text-[200px] font-extrabold tracking-[6px] 2xl:text-[260px] leading-[115%] '>TOKENOMICS</h5>
             </div>
-            <section className='flex flex-row mt-[180px]  w-full items-center justify-center'>
-                <div className=' flex w-full h-[700px]'>
+            <section className='flex  flex-col lg:flex-row mt-20 2xl:gap-[250px] md:mt-[180px] xl:mt-[250px]  w-full lg:items-center lg:justify-center'>
+                <div className=' flex   w-[100%] md:w-[500px] md:h-[500px] lg:w-full 2xl:w-[700px] 2xl:h-[700px]'>
                     <Pie data={chartData} options={{
                         plugins: {
                             legend: {
@@ -65,21 +65,21 @@ export default function Graphic() {
                                         weight: 'normal'
                                     },
                                     color: '#090E14',
-                                    padding: 30,
+                                    padding: 1,
 
                                 }
                             }
                         }
                     }} />
                 </div>
-                <div className='flex flex-col items-start justify-start w-[50%]'>
+                <div className='flex flex-col  w-full 2xl:w-[50%] items-start justify-start'>
                     {chartInfo.map((info, index) => (
-                        <p key={index} className='text-[24px] font-medium leading-[100%] tracking-[0.96px] text-[#090E14] '>
-                            <span className='text-[64px] font-extrabold leading-[100%] tracking-[-2.5px] ' style={{ color: info.color }}>{info.value}%</span><br />
+                        <p key={index} className='text-[20px] md:text-[24px] font-medium leading-[100%] tracking-[0.96px] text-[#090E14] '>
+                            <span className='text-[30px] sm:text-[36] md:text-[50px] lg:text-[64px] font-extrabold leading-[100%] tracking-[-2.5px] ' style={{ color: info.color }}>{info.value}%</span><br />
                             {info.label}
                         </p>
                     ))}
-                    <div className='flex flex-row gap-20 mt-12 items-start justify-start w-[50%]'>
+                    <div className=' flex flex-row 2xl:flex-col md:flex-row gap-6 lg:gap-20 mt-12 items-start justify-start'>
                         <p className='text-[24px] font-medium leading-[100%] tracking-[0.96px] text-[#090E14] '><span className='text-[64px] font-extrabold leading-[100%] tracking-[-2.5px] '>100%</span><br />COMMUNITY TOKEN</p>
                         <p className='text-[24px] uppercase font-medium leading-[100%] tracking-[0.96px] text-[#090E14] '><span className='text-[64px] font-extrabold leading-[100%] tracking-[-2.5px] '>0%</span><br />team allocation</p>
                     </div>

@@ -28,15 +28,15 @@ export default function SectionHow() {
         };
     }, []);
     return (
-        <main className={`${darker.className} h-[fit-content]  text-[#090E14] relative  flex flex-row justify-between items-start pt-[350px] pb-[150px] bg-[#030504]`}>
-            <div className=" z-10 absolute top-[-160px]  w-full overflow-hidden">
-                <h2 className={`tracking-[17px] solsni font-semibold text-[#ffffff25] text-center text-[380px] w-full`}>Solsniffer</h2>
+        <main className={`${darker.className} h-[fit-content]  text-[#090E14] relative  flex flex-col lg:flex-row justify-between items-start pt-[150px] lg:pt-[350px] pb-[150px] bg-[#030504]`}>
+            <div className=" z-10 absolute top-14 md:top-[-100px]   w-full overflow-hidden">
+                <h2 className={`tracking-[17px] solsni font-semibold text-[#ffffff25] text-center text-[58px] sm:text-[130px] md:text-[175px] lg:text-[220px] xl:text-[320px] w-full`}>Solsniffer</h2>
             </div>
             {/* <div className='w-full h-[1200px] absolute top-56 z-20 rounded-[50%] elipse' />
             <div id="texture" className="absolute top-0 right-0 z-30 w-full h-[100%]"></div> */}
-            <section className={`w-full px-[60px] z-50 flex flex-col text-[#F6FAFF] items-start justify-start ${isSticky ? 'sm:sticky top-[50px]' : ''}`}>
-                <div className="ml-[55px]">
-                    <h2 className=' text-[60px] text-balance leading-[54px] font-semibold uppercase'>How we stand out?</h2>
+            <section className={`w-full  px-5 md:px-[60px] z-50 flex flex-col text-[#F6FAFF] items-start justify-start ${isSticky ? 'lg:sticky top-[50px]' : ''}`}>
+                <div className="ml-[25px] lg:ml-[55px] ">
+                    <h2 className='text-[45px] md:text-[60px] text-balance leading-[54px] font-semibold uppercase'>How we stand out?</h2>
                     <p className=' text-[24px] uppercase font-semibold'>all-in-one platform</p>
                     <p className=' uppercase text-[20px] mb-5'>Understanding on-chain data</p>
                     <button className='flex hover:bg-[#262A31] text-[#fff] tracking-[1px] uppercase rounded-[10px] flex-crow justify-center items-center gap-3 py-3 px-5 border-[1px] border-[#ffffff32] border-solid bg-[#000000a3]'>PITCH DECK
@@ -47,7 +47,7 @@ export default function SectionHow() {
                     <Lottie animationData={animationData} width={200} height={200} />
                 </section>
             </section>
-            <section className="w-full  h-[fit-content] mt-5">
+           <section className="w-full  h-[fit-content] mt-5">
                 <Cards />
             </section>
         </main>

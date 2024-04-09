@@ -36,8 +36,8 @@ export default function Footer() {
                 </ul>
                 
             </section>
-            <section className='w-full uppercase flex flex-row justify-end items-end py-[50px] px-[30px] tracking-[6.325px] leading-[100%] font-black text-[#494949]'>
-                    <h2 className='text-[#b8c5d03a] text-[200px] font-extrabold tracking-[6px] leading-[115%]'>Contact</h2>
+            <section className='w-full  uppercase flex flex-row justify-end items-end  tracking-[6.325px] leading-[100%] font-black text-[#494949]'>
+                    <h2 className='text-[#b8c5d03a] text-[50px] sm:text-[70px] md:text-[90px] lg:text-[120px] xl:text-[180px] 2xl:text-[200px] font-extrabold tracking-[6px] leading-[115%]'>Contact</h2>
             </section>
         </footer>
     )

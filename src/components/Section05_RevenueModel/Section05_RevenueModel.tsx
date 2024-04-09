@@ -17,14 +17,14 @@ const darker = Darker_Grotesque({
 export default function SectionRevenue() {
     return (
         <>
-            <section className="w-full p-[110px] flex flex-col justify-center items-start gap-16 h-vh">
+            <section className="w-full px-4 py-5 sm:px-5 md:py-6 lg:p-[110px]  flex flex-col justify-center items-start gap-16 h-vh">
                 <div className={`${darker.className} font-semibold text-[24px] flex flex-row gap-4 justify-start items-center`}>
                     <div className="w-[16px] mt-1 h-[16px]  bg-[#1AF7A0] rounded-full" />
                     <h3 className="uppercase">revenue model</h3>
                 </div>
-                <article className='flex flex-row w-full'>
+                <article className='flex flex-col gap-8 lg:flex-row w-full'>
                     <section className=' w-full'>
-                        <ul className='flex flex-col gap-12'>
+                        <ul className='flex flex-col gap-5 md:gap-12'>
                             {
                                 revenue.map(({ icon, text }, index) => {
                                     return (

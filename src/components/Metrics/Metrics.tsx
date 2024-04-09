@@ -30,8 +30,8 @@ export default function Metrics() {
 
 
     return (
-        <main ref={ref} className="containerSlide gap-[120px] py-9 w-full bg-[#030504]">
-            <section className={`${'logosSlide'} ${isObserver ? '' : 'noAnimation'} flex flex-row justify-center items-center py-9 px-0  gap-32`}>
+        <main ref={ref} className="containerSlide gap-[120px] py-6 sm:py-9 w-full bg-[#030504]">
+            <section className={`${'logosSlide'} ${isObserver ? '' : 'noAnimation'} flex flex-row justify-center items-center py-9 px-0 gap-10  sm:gap-32`}>
                 {
                     metrics.map(({ number, text }, index) => {
                         return (
@@ -43,7 +43,7 @@ export default function Metrics() {
                     })
                 }
             </section>
-            <section className={`${'logosSlide'} ${isObserver ? '' : 'noAnimation'} flex flex-row justify-center items-center py-9 px-0  gap-32`}>
+            <section className={`${'logosSlide'} ${isObserver ? '' : 'noAnimation'} flex flex-row justify-center items-center py-9 px-0  gap-10  sm:gap-32`}>
                 {
                     metrics.map(({ number, text }, index) => {
                         return (
