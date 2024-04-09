@@ -52,7 +52,7 @@ export default function Graphic() {
     return (
         <section className={`${darker.className}  relative w-full flex md:gap-12 flex-col items-center justify-between px-3 xl:px-[120px] pb-[80px] bg-[#F6FAFF]`}>
             <div className=' absolute lg:top-[-30px] 2xl:top-[-60px]  2xl:px-[60px] w-full flex justify-center items-center 2xl:justify-center 2xl:items-center'>
-                <h5 className='text-[#b8c5d03a] text-center text-[48px] sm:text-[80px] md:text-[120px] xl:text-[200px] font-extrabold tracking-[6px] 2xl:text-[260px] leading-[115%] '>TOKENOMICS</h5>
+                <h5 className='text-[#b8c5d03a] text-center text-[48px] sm:text-[80px] md:text-[120px] xl:text-[185px] font-extrabold tracking-[6px] 2xl:text-[230px] leading-[115%] '>TOKENOMICS</h5>
             </div>
             <section className='flex  flex-col lg:flex-row mt-20 2xl:gap-[250px] md:mt-[180px] xl:mt-[250px]  w-full lg:items-center lg:justify-center'>
                 <div className=' flex   w-[100%] md:w-[500px] md:h-[500px] lg:w-full 2xl:w-[700px] 2xl:h-[700px]'>
